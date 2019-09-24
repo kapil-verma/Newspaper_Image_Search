@@ -1,17 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-# 
-### NewsPaper Image Search ###
-# It takes a ZIP file of images (newspaper images) and process them, and finally it will return a contact sheet of all of the faces 
-# which were located on the newspaper page which mentions the name we search for. 
-#
-# we use OpenCV to detect faces, tesseract to do optical character recognition, and PIL to composite images together into contact sheets.
-# 
-# Dataset: Each page of the newspapers is saved as a single PNG image in a file images.zip These newspapers are in english, and contain a 
-# variety of stories, advertisements and images. 
-# Note: This file is fairly large (~200 MB) and may take some time to work with, I would encourage you to use a smaller subset of these
-# images for testing.
-
 
 ### Making global database (stored in ziplist variable)
 
