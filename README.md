@@ -5,7 +5,7 @@ This project code allows one to search through the images from many newspaper lo
 #### Contents
 * `Main.py` takes a ZIP file of images (newspaper images) and process them, and finally it will return a contact sheet of all of the faces 
 which were located on the newspaper page which mentions the name we search for. <br>
-* `readonly` folder contains face (front profile) detection classifier
+* `readonly` folder contains face (front profile) detection classifier and an image containing face detection result for searching the key word "Mark".
 * we use `OpenCV` to detect faces, `tesseract` to do optical character recognition, and `PIL` to composite images together into contact sheets.
 ### Dataset
 Each page of the newspapers is saved as a single PNG image in a file images.zip These newspapers are in english, and contain a 
