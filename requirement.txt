@@ -1,6 +1,6 @@
 # Install tesseract using windows installer available at: https://github.com/UB-Mannheim/tesseract/wiki
 # python version used: 3.6.8
-numpy==1.19.3
+numpy==1.19.5
 opencv-python==4.4.0.44
 Pillow==8.0.1
 pytesseract==0.3.6
